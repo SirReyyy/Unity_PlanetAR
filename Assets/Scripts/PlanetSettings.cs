@@ -15,10 +15,17 @@ public class PlanetController : MonoBehaviour
     [Tooltip("Set to true for clockwise rotation, false for counter-clockwise.")]
     public bool rotateClockwise = true;
 
+    public bool isSun, isLarge;
+
     private void Start()
     {
         // Apply uniform scale to the planet
-        transform.localScale = Vector3.one * scaleMultiplier * 0.05f;
+        if(isSun)
+            transform.localScale = Vector3.one * scaleMultiplier * 0.001f;
+        else if(isLarge)
+            transform.localScale = Vector3.one * scaleMultiplier * 0.005f;
+        else
+            transform.localScale = Vector3.one * scaleMultiplier * 0.05f;
 
         // Set the initial rotation to represent the axial tilt around the Z-axis
         transform.rotation = Quaternion.Euler(0f, 0f, axialTilt);

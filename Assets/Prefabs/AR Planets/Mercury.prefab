@@ -120,5 +120,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleMultiplier: 4.88
   axialTilt: 0.03
-  rotationSpeed: 10
+  rotationSpeed: 1.5
   rotateClockwise: 1
