@@ -18,12 +18,22 @@ MonoBehaviour:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5043541963242582304
-      m_GuidHigh: 9538703726668202667
+      m_GuidLow: 4651108072373916844
+      m_GuidHigh: 4401722032907881139
+    m_SerializedTextureGuid:
+      m_GuidLow: 6945720773011875710
+      m_GuidHigh: 9834272496793289305
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Mercury
+    m_Texture: {fileID: 2800000, guid: 386ca77e283e60645902c24bbb5a7a88, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4967199833135703170
+      m_GuidHigh: 2757310190704887200
     m_SerializedTextureGuid:
       m_GuidLow: 690232201719490210
       m_GuidHigh: 7277770092819470379
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: Mrkr_Earth
+    m_Name: Earth
     m_Texture: {fileID: 2800000, guid: cc06a6a2328709942b58771357d5ff64, type: 3}

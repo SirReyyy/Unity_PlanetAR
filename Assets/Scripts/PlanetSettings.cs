@@ -18,7 +18,7 @@ public class PlanetController : MonoBehaviour
     private void Start()
     {
         // Apply uniform scale to the planet
-        transform.localScale = Vector3.one * scaleMultiplier * 0.025f;
+        transform.localScale = Vector3.one * scaleMultiplier * 0.05f;
 
         // Set the initial rotation to represent the axial tilt around the Z-axis
         transform.rotation = Quaternion.Euler(0f, 0f, axialTilt);
